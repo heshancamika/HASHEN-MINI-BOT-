@@ -17,7 +17,7 @@ const { initUserEnvIfMissing } = require('./settingsdb');
 const { initEnvsettings, getSetting } = require('./settings');
 
 //=======================================
-const autoReact = getSetting('AUTO_REACT') || 'off';
+const autoReact = getSetting('AUTO_REACT') || 'on';
 
 //=======================================
 const {
